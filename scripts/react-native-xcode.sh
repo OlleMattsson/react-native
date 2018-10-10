@@ -110,7 +110,8 @@ $NODE_BINARY "$CLI_PATH" $BUNDLE_COMMAND \
   $CONFIG_ARG \
   --entry-file "$ENTRY_FILE" \
   --platform ios \
-  --dev $DEV \
+  --dev false \
+  --minify false \
   --reset-cache \
   --bundle-output "$BUNDLE_FILE" \
   --assets-dest "$DEST" \
